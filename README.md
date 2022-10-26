@@ -1,9 +1,11 @@
 # Your Project's Title...
+
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+
+-   Preview: [https://main--helix-demo--jasonfordadobe.hlx.page](https://main--helix-demo--jasonfordadobe.hlx.page)
+-   Live: [https://main--helix-demo--jasonfordadobe.hlx.live](https://main--helix-demo--jasonfordadobe.hlx.live)
 
 ## Installation
 
@@ -11,16 +13,17 @@ Your project's description...
 npm i
 ```
 
+## Usage
+
+-   `hlx up` opens [http://localhost:3000](http://localhost:3000)
+
 ## Tests
 
 ```sh
 npm tst
 ```
 
-## Local development
+## Useful Links
 
-1. Create a new repository based on the `helix-project-boilerplate` template and add a mountpoint in the `fstab.yaml`
-1. Add the [helix-bot](https://github.com/apps/helix-bot) to the repository
-1. Install the [Helix CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/helix-cli`
-1. Start Helix Pages Proxy: `hlx up` (opens your browser at `http://localhost:3000`)
-1. Open the `{repo}` directory in your favorite IDE and start coding :)
+-   [helix-bot](https://github.com/apps/helix-bot) to the repository
+-   [Helix CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/helix-cli`
